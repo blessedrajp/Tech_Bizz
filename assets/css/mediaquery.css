@@ -1,0 +1,1380 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (max-width: 1200px) {
+
+
+    /* -----solution----- */
+
+    #solution{
+        background: url(../images/solutionback.jpg);
+        padding-top:100px;
+        padding-bottom:98px;
+        
+        
+    }
+    #solution .container-size{
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    #solution .solution-left .backimg{
+        width: 350px;  
+    }
+    
+    #solution .solution-left .backimg img{
+        width:100%
+    }
+    
+    #solution .solution-left .frontimg{
+        position: absolute;
+        left: 32%;
+        top: 60%;
+        width: 264px;
+        
+    }
+    #solution .solution-left .frontimg img{
+        width:100%
+    }
+
+    /* ----------FaQ starts------------------ */
+
+    #Faq{
+        padding-top:100px;
+        padding-bottom:100px;    
+        position: relative; 
+        height:860px
+      } 
+
+      #Faq .faqbackground1{
+        position: absolute;
+        right: 0;
+        top: 120px;
+        bottom: 0;
+        width: 100%;
+        max-width: 943px;
+        height: 650px;
+        
+      }
+
+      #Faq .faqbackground2{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        max-width: 845px;
+        max-height: 570px;
+      }
+
+      #Faq .faq-content .faq-left .img1{
+        height: 500px;
+      }
+      #Faq .faq-content .faq-left .img1 img{
+        width: 100%;
+        height:100% 
+      }
+
+      #Faq .faq-content .faq-right .content{
+        padding-left: 16px;
+        padding-top: 30px;
+      }
+
+      #Faq .faq-content .faq-right .accordion h2 button{
+        font-size: 18px;
+        font-weight: 700;
+        width: 500px;
+    
+    }
+
+    #Faq .faq-content .faq-right .accordion .accordion-body{
+        font-size: 17px;
+        font-weight: 600;
+        color: #55595d;
+        width:500px
+    }
+
+     /* ---------skills starts---------------- */
+
+     #skills{
+        padding-top:60px;
+        padding-bottom:100px;
+    }
+
+      /* -------------Process starts----------- */
+      #Process .container-size{
+        max-width: 95%;
+        margin:0 auto;
+    }
+
+     /* =======clients========== */
+
+     #Clients .container-size{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    #Clients .clienthead h4::before{
+        width: 35%;
+        margin-right:10px;
+        margin-bottom:4px
+    }
+
+    #Clients .clienthead h4::after{
+        width: 35%;
+        margin-left:10px;
+        margin-bottom:4px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    /* ---------banner section starts ------------*/
+    #banner .carousel-inner .carousel-caption{
+      text-align: left;
+      top: 19%;
+      left:15%
+  }
+
+  #banner .carousel-control-next{
+    right:2%
+  }
+
+  /* --------solution Starts-------- */
+  #solution .container-size{
+    width: 95%;
+    margin: 0 auto;
+ }
+
+ /* =============Counter================ */
+ #Counter .container-size{
+  max-width: 92%;
+  margin: 0 auto;
+
+ }
+ /* ------------Team Starts------------ */
+ #Team{
+  padding-top:90px;
+  padding-bottom: 100px;
+ }
+
+ #Team .container-size{
+  max-width: 95%;
+  margin: 0 auto;
+ }
+ #Team .team-owl .teamimg{
+  height:250px;
+  position: relative;
+  overflow: hidden;
+ }
+
+ #Team .team-owl .teamimg .socialicons{
+  background: #0074FF;
+  position: absolute;
+  top: 86%;
+  left: 18%;
+ }
+
+ #Team .team-owl .teamimg .socialicons a i{
+  color: #ffffff;
+  padding-left:10px;
+  font-size: 20px;
+ }
+
+ #Team .team-owl .team-content{
+  padding-top:15px;
+  text-align: center;
+ }
+
+ /* ----------FaQ starts------------------ */
+
+
+ #Faq .faqbackground1{
+  position: absolute;
+  right: 0;
+  top: 120px;
+  bottom: 0;
+  width: 100%;
+  max-width: 943px;
+  height: 750px;
+  
+}
+ #Faq .faq-content .faq-left .img1{
+  height: 456px;
+}
+#Faq .faq-content .faq-left .img1 img{
+  width: 100%;
+  height:100% 
+}
+
+#Faq .faq-content .faq-right .accordion h2 button{
+  font-size: 16px;
+  font-weight: 700;
+  width: 400px;
+
+}
+
+#Faq .faq-content .faq-right .accordion .accordion-body{
+  font-size: 15px;
+  font-weight: 600;
+  color: #55595d;
+  width:400px
+}
+
+/* ---------skills starts---------------- */
+
+#skills{
+  padding-top:100px;
+  padding-bottom:100px;
+}
+
+#skills .container-size{
+  max-width: 85%;
+  margin:0 auto;
+}
+
+#skills .skill-right .skillimg{
+
+}
+
+#skills .skill-right .skillimg img{
+  height:100%;
+  width:100%
+}
+
+/* =======clients========== */
+
+#Clients .container-size{
+  max-width: 92%;
+  margin: 0 auto;
+}
+
+}
+
+/* ===========================ipad air=======================  */
+@media only screen and (max-device-width: 820px) {
+    /* ---------banner section starts ------------*/
+    #banner .carousel-inner .carousel-caption{
+      text-align: left;
+      top: 18%;
+      left:15%
+  }
+  
+  #banner .carousel-inner .carousel-caption h5{
+     display: none;
+      
+  }
+  #banner .carousel-inner .carousel-caption h1{
+      font-size: 42px;
+      padding-top:16px;
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 700;
+      
+  }
+  
+  #banner .carousel-inner .carousel-caption .bannerlinks{
+      display: flex;
+      gap:30px;
+      padding-top:20px
+  }
+
+  #banner button i{
+    border: 1px white solid;
+    padding: 13px;
+    border-radius: 50%;
+    font-size: 20px;
+
+}
+
+/* -----solution----- */
+
+#solution{
+  background: url(../images/solutionback.jpg);
+  padding-top:100px;
+  padding-bottom:98px;
+  
+  
+}
+#solution .container-size{
+  width: 80%;
+  margin: 0 auto;
+}
+
+#solution .solution-left .solimages{
+  
+}
+
+#solution .solution-left .backimg{
+  width: 350px;  
+}
+
+#solution .solution-left .backimg img{
+  width:100%
+}
+
+#solution .solution-left .frontimg{
+  position: absolute;
+  left: 58%;
+  top: 37%;
+  width: 318px;
+}
+#solution .solution-left .frontimg img{
+  width:100%
+}
+
+/* =============Counter================ */
+#Counter .container-size{
+  max-width: 80%;
+  margin: 0 auto;
+
+ }
+
+ #Counter .countercol{
+  display: flex;
+  gap:25px;
+  padding-top:20px
+ }
+
+  /* ------------Team Starts------------ */
+
+  #Team .container-size{
+    max-width: 80%;
+    margin: 0 auto;
+   }
+
+    /* ----------FaQ starts------------------ */
+
+    #Faq{
+      padding-top:100px;
+      padding-bottom:100px;    
+      position:static;
+      background: #0f2244; 
+      height: 1222px;
+    
+    } 
+
+    #Faq .container-size{
+      max-width: 80%;
+      margin: 0 auto;
+    }
+
+    #Faq .faqbackground1{
+      background-image:none;
+      
+      
+    }
+    #Faq .faqbackground2{
+      background-image:none
+    }
+
+    #Faq .faq-content{
+      position: static;
+      top:2%
+    }
+    #Faq .faq-content .faq-left .img1{
+      height: 420px;
+    }
+    #Faq .faq-content .faq-right{
+      width: 100%;
+      padding-top:60px
+  }
+
+  #Faq .faq-content .faq-right .accordion h2 button{
+    font-size: 16px;
+    font-weight: 700;
+    width: 550px;
+  
+  }
+  
+  #Faq .faq-content .faq-right .accordion .accordion-body{
+    font-size: 15px;
+    font-weight: 600;
+    color: #55595d;
+    width:550px
+  }
+
+  /* ---------skills starts---------------- */
+
+  #skills{
+    padding-top:80px;
+    padding-bottom:100px;
+  }
+  #skills .container-size{
+    max-width: 80%;
+    margin:0 auto;
+  }
+  #skills .skill-right{
+    padding-top:50px
+  }
+
+   /* -------------Process starts----------- */
+
+   #Process .processcol .arrowinvert{
+    transform: rotateX(190deg);
+    top: 16%;
+    right: -53px;
+    display:none
+    }
+
+    /* =======clients========== */
+
+      #Clients .clienthead h4::before{
+        
+        width: 30%;
+        margin-right:10px;
+        margin-bottom:4px
+    }
+
+    #Clients .container-size{
+      max-width: 80%;
+      margin: 0 auto;
+  }
+
+    #Clients .clienthead h4::after{
+        height:2px;
+        width: 30%;
+        margin-left:10px;
+        margin-bottom:4px;
+    }
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    /* ---------banner section starts ------------*/
+    #banner .carousel-inner .carousel-caption{
+      text-align: left;
+      top: 11%;
+      left:15%
+  }
+    /* -----solution----- */
+  #solution .container-size{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #solution .solution-left .frontimg{
+    position: absolute;
+    left: 51%;
+    top: 37%;
+    width: 318px;
+  }
+
+   /* ===========services starts================= */
+
+   #services .container-size{
+    max-width: 90%;
+    margin:0 auto
+   } 
+
+   #services .service-row .servicebox{
+    background-color: #ffffff;
+    height:360px;
+    width:300px;
+    box-shadow: 0px 16px 47px rgba(78, 111, 178, 0.07);
+    border-radius: 5px;
+    position: relative;
+    transition: all ease 0.4s;
+    overflow: hidden;
+    padding: 30px;
+    
+   }
+
+   /* =============Counter================ */
+  #Counter .container-size{
+    max-width: 90%;
+    margin: 0 auto;
+
+   }  
+
+    /* ------------Team Starts------------ */
+
+    #Team .container-size{
+      max-width: 90%;
+      margin: 0 auto;
+   }
+
+   /* ----------FaQ starts------------------ */
+
+   #Faq .container-size{
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+   /* ---------skills starts---------------- */
+
+   #skills .container-size{
+    max-width: 90%;
+    margin:0 auto;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   
+   /* ---------banner section starts ------------*/
+   #banner .carousel-inner .carousel-caption{
+    text-align: left;
+    top: 16%;
+    left:15%
+  }
+
+  #banner .carousel-inner .carousel-caption h1{
+    font-size: 30px;
+    padding-top:16px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+    
+  }
+
+  #banner .carousel-caption .bannerlinks .about{
+    background:#0074FF;
+    padding: 15px 17.5px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+  #banner .carousel-caption .bannerlinks .read{
+    background:white;
+    padding: 15px 17.5px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  }
+  /* -----solution----- */
+
+#solution{
+  background: url(../images/solutionback.jpg);
+  padding-top:100px;
+  padding-bottom:98px;
+  
+  
+}
+#solution .container-size{
+  width: 80%;
+  margin: 0 auto;
+}
+
+#solution .solution-left .solimages{
+  
+}
+
+#solution .solution-left .backimg{
+  width: 290px; 
+}
+
+#solution .solution-left .backimg img{
+  width:100%
+}
+
+#solution .solution-left .frontimg{
+  position: absolute;
+  left: 61%;
+  top: 45%;
+  width: 232px;
+}
+#solution .solution-left .frontimg img{
+  width:100%
+}
+#solution .solution-right h1{
+  font-size: 40px;
+  font-family: 'Exo', sans-serif;
+  font-weight: 600;
+  padding-top:18px;
+}
+/* ===========services starts================= */
+
+#services .container-size{
+  max-width: 80%;
+  margin:0 auto
+ } 
+
+ #services .services-head h1{
+  font-size: 40px;
+  font-family: 'Exo', sans-serif;
+  font-weight: 600;
+  padding-top:18px;
+ }
+
+ #services .service-row .servicebox{
+  background-color: #ffffff;
+  height:360px;
+  width:350px;
+  box-shadow: 0px 16px 47px rgba(78, 111, 178, 0.07);
+  border-radius: 5px;
+  position: relative;
+  transition: all ease 0.4s;
+  overflow: hidden;
+  padding: 30px;
+  
+ }
+
+ /* ------------Team Starts------------ */
+
+ #Team .container-size{
+  max-width: 80%;
+  margin: 0 auto;
+  }
+  #Team .team-head h1{
+    font-size: 40px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+    padding-top:18px;
+  }
+  #Team .team-owl .teamimg{
+    height:330px;
+    position: relative;
+    overflow: hidden;
+   }
+
+   #Team .team-owl .teamimg img{
+    border-radius: 5px;
+    
+   }
+
+    /* ----------FaQ starts------------------ */
+
+    #Faq{
+      padding-top:100px;
+      padding-bottom:100px;    
+      position:static;
+      background: #0f2244; 
+      height: 1222px;
+    
+    } 
+
+    #Faq .container-size{
+      max-width: 80%;
+      margin: 0 auto;
+    }
+
+    #Faq .faqbackground1{
+      background-image:none;
+      
+      
+    }
+    #Faq .faqbackground2{
+      background-image:none
+    }
+
+    #Faq .faq-content{
+      position: static;
+      top:2%
+    }
+    #Faq .faq-content .faq-right{
+      width: 100%;
+      padding-top:60px
+    }
+    #Faq .faq-content .faq-left .img1{
+      height: 400px;
+    }
+    #Faq .faq-content .faq-left .img2{
+      position: absolute;
+      bottom: 0;
+      right: 12px;
+      background-color: white;
+      height:200px
+    }
+    #Faq .faq-content .faq-left .img2 img{
+      padding:10px;
+      height:100%
+    }
+    #Faq .faq-content .faq-right h1{
+      color: #ffffff;
+      font-family: 'Exo 2', sans-serif;
+      font-size: 40px;
+      font-weight: 800;
+
+  }
+
+    #Faq .faq-content .faq-right .accordion h2 button{
+      font-size: 16px;
+      font-weight: 700;
+      width: 420px;
+    }
+  
+    #Faq .faq-content .faq-right .accordion .accordion-body{
+      font-size: 15px;
+      font-weight: 600;
+      color: #55595d;
+      width:420px
+    }
+     /* ---------skills starts---------------- */
+
+     #skills .container-size{
+      max-width: 80%;
+      margin:0 auto;
+    }
+
+     /* --------------consultaiotn starts----------- */
+     #consultation .constcontent{
+      display: block;
+      justify-content: space-between;
+    }
+
+    #consultation .constcontent .consultleft h1{
+      font-size: 40px;
+      font-family: 'Exo', sans-serif;
+      font-weight: 600;
+      padding-top:18px;
+      color: #ffffff;
+      padding-bottom: 20px;
+     }
+
+     #consultation .constcontent .consultright .quote{
+      padding-top:20px;
+     }
+
+     /* -------------Process starts----------- */
+
+     #Process .process-head h1{
+      font-size: 40px;
+      font-family: 'Exo', sans-serif;
+      font-weight: 600;
+      padding-top:18px;
+     }
+     #Process .container-size{
+      max-width: 80%;
+      margin:0 auto;
+  }
+}
+
+/* /* ---- iphone 13pro max ---------- */
+@media only screen and (max-device-width: 430px) {
+
+   /* ---------banner section starts ------------*/
+   #banner .carousel-inner .carousel-caption{
+    text-align: left;
+    top: 0;
+    left:15%
+  }
+
+  #banner .carousel-inner .carousel-caption h1{
+    font-size: 25px;
+    padding-top:16px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    padding-top: 16px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
+    
+  }
+  #banner .carousel-inner .carousel-caption .bannerlinks{
+    display: flex;
+    gap:30px;
+    padding-top:0px
+}
+
+  #banner .carousel-caption .bannerlinks .about{
+    background:#0074FF;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  }
+  #banner .carousel-caption .bannerlinks .about a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+  #banner .carousel-caption .bannerlinks .read{
+    background:white;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  }
+  #banner .carousel-caption .bannerlinks .read a{
+    text-decoration: none;
+    color:#0074FF;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+  /* -----solution----- */
+
+#solution{
+  background: url(../images/solutionback.jpg);
+  padding-top:100px;
+  padding-bottom:98px;
+  
+  
+}
+#solution .container-size{
+  width: 80%;
+  margin: 0 auto;
+}
+
+#solution .solution-left .solimages{
+  
+}
+
+#solution .solution-left .backimg{
+  width: 227px;
+}
+
+#solution .solution-left .backimg img{
+  width:100%
+}
+
+#solution .solution-left .frontimg{
+    left: 37%;
+    top: 47%;
+    width: 207px;
+}
+#solution .solution-left .frontimg .iconbox{
+  padding: 12px 18px;
+    border-radius: 5px;
+    top: 42%;
+    left: 36%;
+}
+#solution .solution-left .frontimg img{
+  width:100%
+}
+#solution .solution-right h1{
+  font-size: 35px;
+  font-family: 'Exo', sans-serif;
+  font-weight: 600;
+  padding-top:18px;
+}
+/* ===========services starts================= */
+
+#services .container-size{
+  max-width: 80%;
+  margin:0 auto
+ } 
+
+ #services .services-head h1{
+  font-size: 35px;
+  font-family: 'Exo', sans-serif;
+  font-weight: 600;
+  padding-top:18px;
+ }
+
+ #services .service-row .servicebox{
+  
+  height: 351px;
+  width: 310px;
+  padding: 20px;
+  
+ }
+
+ /* =============Counter================ */
+#Counter .container-size{
+  max-width: 80%;
+  margin: 0 auto;
+
+ }
+
+ #Counter .countercol{
+  display: flex;
+  gap:25px;
+  padding-top:20px;
+  padding-left: 40px;
+ }
+ #Counter .container-size .row{
+  justify-content: center;
+  
+ }
+
+ /* ------------Team Starts------------ */
+
+ #Team .container-size{
+  max-width: 80%;
+  margin: 0 auto;
+  }
+  #Team .team-head h1{
+    font-size: 35px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+    padding-top:18px;
+  }
+  #Team .team-owl .teamimg{
+    height:330px;
+    position: relative;
+    overflow: hidden;
+   }
+
+   #Team .team-owl .teamimg img{
+    border-radius: 5px;
+    
+   }
+
+    /* ----------FaQ starts------------------ */
+
+    #Faq{
+      padding-top:100px;
+      padding-bottom:100px;    
+      position:static;
+      background: #0f2244; 
+      height: 1222px;
+    
+    } 
+
+    #Faq .container-size{
+      max-width: 80%;
+      margin: 0 auto;
+    }
+
+
+    #Faq .faq-content{
+      position: static;
+      top:2%
+    }
+    #Faq .faq-content .faq-right{
+      width: 100%;
+      padding-top:60px
+    }
+    #Faq .faq-content .faq-left .img1{
+      height: 303px;
+    }
+    #Faq .faq-content .faq-left .img2{
+      position: absolute;
+      bottom: 0;
+      right: 12px;
+      background-color: white;
+      height: 155px;
+    }
+    #Faq .faq-content .faq-left .img2 img{
+      padding:10px;
+      height:100%
+    }
+
+    #Faq .faq-content .faq-left .img2 .icon-box{
+      width: 45px;
+      height: 45px;
+      line-height: 95px;
+      top: 40%;
+      right: 41%;
+     
+      }
+      
+    #Faq .faq-content .faq-right h1{
+      color: #ffffff;
+      font-family: 'Exo 2', sans-serif;
+      font-size: 35px;
+      font-weight: 800;
+
+    }
+
+    #Faq .faq-content .faq-left .img2 .icon-box i{
+      font-size: 15px;
+      color: white;
+      }
+      #Faq .faq-content .faq-right .content {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+
+    #Faq .faq-content .faq-right .accordion h2 button{
+      font-size: 16px;
+      font-weight: 700;
+      width: 350px;
+    }
+  
+    #Faq .faq-content .faq-right .accordion .accordion-body{
+      font-size: 15px;
+      font-weight: 600;
+      color: #55595d;
+      width:350px
+    }
+     /* ---------skills starts---------------- */
+     #skills{
+      padding-top:80px;
+      padding-bottom:60px;
+    }
+     #skills .container-size{
+      max-width: 80%;
+      margin:0 auto;
+    }
+
+     /* --------------consultaiotn starts----------- */
+     #consultation .constcontent{
+      display: block;
+      justify-content: space-between;
+    }
+
+    #consultation .constcontent .consultleft h1{
+      font-size: 35px;
+      font-family: 'Exo', sans-serif;
+      font-weight: 600;
+      padding-top:18px;
+      color: #ffffff;
+      padding-bottom: 20px;
+     }
+
+     #consultation .constcontent .consultright .quote{
+      padding-top:20px;
+     }
+
+     /* -------------Process starts----------- */
+
+     #Process .process-head h1{
+      font-size: 35px;
+      font-family: 'Exo', sans-serif;
+      font-weight: 600;
+      padding-top:18px;
+     }
+     #Process .container-size{
+      max-width: 80%;
+      margin:0 auto;
+    }
+    #Process .processrow{
+      padding-top:10px
+  }
+
+    #Process .processcol .box{
+      text-align: center;
+      padding-top: 40px !important;
+  }
+
+    #Process .processcol .box-even{
+      padding-top:0px
+  }
+
+    #Process .processcol .processarrow{
+      display: none;
+    }
+
+    /* =======clients========== */
+
+    #Clients .clienthead h4::before{
+        
+      width: 10%;
+      margin-right:10px;
+      margin-bottom:4px
+  }
+
+  #Clients .container-size{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+  #Clients .clienthead h4::after{
+      height:2px;
+      width: 10%;
+      margin-left:10px;
+      margin-bottom:4px;
+  }
+  #Clients .clientowl .item .clientimg{
+    height: 120px;
+    width: 120px;
+}
+
+
+}
+
+/* /* ---- iphone XR max ---------- */
+@media only screen and (max-device-width: 414px) {
+    
+  /* ---------banner section starts ------------*/
+  #banner .carousel-inner .carousel-caption{
+    text-align: left;
+    top: -11px;
+    left: 17%;
+
+  }
+}
+
+/* pixel 5  ----------- */
+@media only screen and (max-device-width: 393px) {
+
+  /* ---------banner section starts ------------*/
+  #banner .carousel-inner .carousel-caption{
+    text-align: left;
+    top: -11px;
+    left: 17%;
+  }
+
+  #banner .carousel-inner .carousel-caption h1{
+    font-size: 22px;
+    padding-top:16px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    padding-top: 16px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
+    
+  }
+  #banner .carousel-caption .bannerlinks .about{
+    background:#0074FF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  }
+  #banner .carousel-caption .bannerlinks .about a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+  #banner .carousel-caption .bannerlinks .read{
+    background:white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  }
+  #banner .carousel-caption .bannerlinks .read a{
+    text-decoration: none;
+    color:#0074FF;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#banner button i{
+  border: 1px white solid;
+  padding: 8px;
+  border-radius: 50%;
+  font-size: 15px;
+
+}
+/* -----solution----- */
+
+#solution{
+  background: url(../images/solutionback.jpg);
+  padding-top:80px;
+  padding-bottom:98px
+  
+}
+
+#solution .solution-right .callbox{
+  background: #ffffff;
+  height:100px;
+  width:300px;
+  display: flex;
+  padding: 10px;
+  gap:10px;
+}
+
+#solution .solution-right .callbox .icon-box{
+  background: #eff1f5;
+  width: 75px;
+  height: 75px;
+  line-height: 95px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0px 7px 37px rgba(96, 125, 185, 0.11);
+ 
+}
+
+#solution .solution-right .callbox .icon-box i{
+  font-size: 30px;
+  color: #0074FF;
+}
+
+#solution .solution-right .callbox .callcontent p{
+  color: #55595d;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  padding-top:8px
+}
+
+
+ /* ----------FaQ starts------------------ */
+ #Faq .container-size{
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+#Faq .faq-content .faq-left .img1{
+  height: 285px;
+}
+#Faq .faq-content .faq-left .img1 img{
+  width: 100%;
+  height:100% 
+}
+#Faq .faq-content .faq-right .accordion h2 button{
+  font-size: 15px;
+  font-weight: 700;
+  width: 320px;
+}
+
+#Faq .faq-content .faq-right .accordion .accordion-body{
+  font-size: 14px;
+  font-weight: 600;
+  color: #55595d;
+  width:320px
+}
+}
+
+/* iPhone 12 pro ----------- */
+@media only screen and (max-device-width: 390px) {
+    
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (max-device-width: 375px) {
+    
+  /* ---------banner section starts ------------*/
+  #banner .carousel-inner .carousel-caption{
+    text-align: left;
+    top: 20%;
+    left:15%
+  }
+
+  #banner .carousel-inner .carousel-caption h1{
+    padding-top:16px;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 0px;
+    line-height: 1;
+   
+    
+  }
+
+  #banner .carousel-caption .bannerlinks .about{
+    background: #0074FF;
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    height: 23px;
+    display: flex;
+  }
+  #banner .carousel-caption .bannerlinks .about a{
+    text-decoration: none;
+    color: white;
+    font-size: 8px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+  #banner .carousel-caption .bannerlinks .read{
+    background:white;
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    height: 22px;
+    display: flex;
+  }
+  #banner .carousel-caption .bannerlinks .read a{
+    text-decoration: none;
+    color:#0074FF;
+    font-size: 8px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+  /* -----solution----- */
+  #solution .solution-right h1{
+    font-size: 30px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+    padding-top:18px;
+  }
+  /* ===========services starts================= */
+
+  #services .services-head h1{
+    font-size: 30px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+    padding-top:18px;
+   }
+
+   /* =============Counter================ */
+
+   #Counter .countercol .iconbox{
+    background: #0074FF;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   #Counter .countercol .iconbox img{
+    height:70%;
+    width:70%
+   }
+
+   #Counter .countercol .content h1{
+    color: #ffffff;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+   }
+   /* ------------Team Starts------------ */
+   #Team .team-head h1{
+    font-size: 30px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+    padding-top:18px;
+    width:80%;
+    margin: 0 auto;
+  }
+
+   /* ----------FaQ starts------------------ */
+
+   #Faq .container-size{
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  #Faq .faq-content .faq-right h1{
+    color: #ffffff;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+
+  }
+
+  #Faq .faq-content .faq-right .accordion h2 button{
+    font-size: 15px;
+    font-weight: 700;
+    width: 300px;
+  }
+  
+  #Faq .faq-content .faq-right .accordion .accordion-body{
+    font-size: 14px;
+    font-weight: 600;
+    color: #55595d;
+    width:300px
+  }
+  /* --------------consultaiotn starts----------- */
+  #consultation .constcontent .consultleft h1{
+    font-size: 30px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+    padding-top:18px;
+    color: #ffffff;
+    padding-bottom: 20px;
+   }
+
+  /* -------------Process starts----------- */
+
+  #Process .process-head h1{
+    font-size: 30px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+    padding-top:18px;
+    width: 80%;
+    margin: 0 auto;
+   }
+}
+
+/* samsung galaxy  */
+@media only screen and (max-device-width: 360px) {
+
+}
+
+

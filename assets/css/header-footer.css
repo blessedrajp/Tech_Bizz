@@ -1,0 +1,1107 @@
+@font-face {
+    font-family: 'Exo 2', sans-serif;
+    src: url('../fonts/Exo2-Italic-VariableFont_wght.ttf') format("opentype")
+}
+
+@font-face {
+    font-family: 'Exo 2', sans-serif;
+    src: url('../fonts/Exo2-VariableFont_wght.ttf') format("opentype")
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+    transition: 0.5s !important;
+    scroll-behavior: smooth;
+    /* border: 1px solid #000; */
+}
+html{
+    font-family: 'Exo 2', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+
+
+/* =============Header============== */
+
+/* ---------Top nav----------- */
+
+header .topnav{
+background-color: #262626;
+display: flex;
+justify-content: space-between;
+padding:10px 15px
+
+}
+
+header .topnav .topnavleft{
+
+}
+
+header .topnav .topnavleft a{
+
+}
+
+header .topnav .topnavleft a img{
+height:40px;
+}
+
+header .topnav .topnavright{
+
+}
+
+header .topnav .topnavright .buybutton{
+    background: #82b440;
+    height: 32px;
+    width: 100px;
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 0 #6f9a37;
+
+}
+
+header .topnav .topnavright a{
+    text-decoration: none;
+    color: white;
+
+}
+/* -----------topnav Ends */
+
+/* -----------middle nav------------- */
+header .middlenav{
+background-color: #0074FF;
+margin-top: 60px;
+}
+
+header .middlenav .container-size{
+max-width: 100%;
+padding:0 120px
+}
+
+
+header .middlenav .contactinfo{
+    display: flex;
+    justify-content: space-between;
+    padding-top:10px
+}
+
+header .middlenav .middlenavleft{
+
+}
+
+header .middlenav .middlenavleft ul{
+    display: flex;
+    list-style-type: none;
+    gap:10px;
+}
+
+
+header .middlenav .middlenavleft ul li{
+    color: white;
+    border-right: 0.1px rgb(163, 160, 160) solid;
+    padding-right:20px
+}
+
+header .middlenav .middlenavleft ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+header .middlenav .middlenavright{
+    
+}
+header .middlenav .middlenavright ul{
+    list-style-type: none;
+    display: flex;
+    gap:15px
+}
+header .middlenav .middlenavright ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* -----------middlenav Ends */
+
+/* -----------main navbar---------- */
+header .main-nav{
+
+}
+
+header .main-nav .container-size{
+    max-width: 100%;
+    padding:0 120px
+}
+
+header .main-nav .container-fluid{
+    flex-wrap: nowrap;
+    justify-content:flex-start;
+}
+
+header .main-nav .navigation{
+    display: flex;
+    list-style-type: none;
+    margin-top: 18px;
+    margin-right: 40px;
+}
+
+
+header .main-nav .nav-item{
+    padding-left:40px
+}
+header .main-nav .nav-item .nav-link{
+    font-weight: 600;
+    color: #262626;
+    
+}
+
+header .main-nav .dropdown-menu{
+    padding:10px;
+    border-radius: 0;
+    position: absolute;
+}
+header .main-nav .dropdown-item:before{
+    content: "\f111";
+    position: absolute;
+    top: 2.5em;
+    left: 0;
+    font-family: FontAwesome;
+    width: 11px;
+    height: 11px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 0.2em;
+    line-height: 11.5px;
+    color:#0074FF;
+    font-weight: 700;
+    background-color: white;
+    box-shadow: inset 0px 2px 4px 0px rgba(173, 136, 88, 0.4);
+}
+header .main-nav .dropdown-menu:before{
+    content: "";
+    position: absolute;
+    left: 14.5px;
+    top: 25px;
+    width: 1px;
+    background-color: #ededed;
+    height: calc(100% - 45px);
+}
+
+
+header .nav-item:hover>.dropdown-menu{
+    display: block;
+}
+header .main-nav .dropdown-menu li {
+    position: relative;
+}
+header .main-nav .dropdown-menu .dropdown-submenu {
+display: none;
+position: absolute;
+left: 100%;
+top: -7px;
+}
+header .main-nav .dropdown-menu .dropdown-submenu-left {
+right: 100%;
+left: auto;
+}
+header .main-nav .dropdown-menu > li:hover > .dropdown-submenu {
+display: block;
+}
+
+header .main-nav .mainnav-right{
+display: flex;
+gap: 25px;
+margin-top: 10px;
+}
+
+header .main-nav .mainnav-right .contactbutton{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    width: 150px;
+    background: #0074FF;
+    padding:15px 20px;
+    border-radius: 10px;
+}
+
+
+header .main-nav .mainnav-right .contactbutton a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+header .main-nav .mainnav-right .contactbutton:after{
+    content: "";
+    background: black;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   header .main-nav .mainnav-right .contactbutton:hover:after{
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }
+
+
+header .main-nav .mainnav-right .contactbutton a{
+    
+}
+header .main-nav .mainnav-right .offcanvas-bar{
+   background-color: #F2F6FF;
+    
+}
+
+header .main-nav .mainnav-right .offcanvas-bar i{
+    font-size: 20px;
+}
+
+header .main-nav .mainnav-right .offcanvas{
+    padding: 0 20px;
+}
+
+header .main-nav .mainnav-right .offcanvas button{
+    background-color: #0074FF;
+    padding:15px;
+    border-radius: 50%;
+}
+
+header .main-nav .mainnav-right .offcanvas .offcanvas-body span{
+display: inline-block;
+background: #898484;
+height:1px;
+width: 100%;
+}
+
+
+
+
+/* ---------mobile nav--------- */
+.mobile-nav{
+    display: none;
+}
+header .mobile-nav .nav-item .nav-link{
+    font-weight: 600;
+    color: #262626;
+    
+}
+
+header .mobile-nav .dropdown-menu{
+    padding:10px;
+    border-radius: 0;
+    position: absolute;
+}
+header .mobile-nav .dropdown-item:before{
+    content: "\f111";
+    position: absolute;
+    top: 2.5em;
+    left: 0;
+    font-family: FontAwesome;
+    width: 11px;
+    height: 11px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 0.2em;
+    line-height: 11.5px;
+    color:#0074FF;
+    font-weight: 700;
+    background-color: white;
+    box-shadow: inset 0px 2px 4px 0px rgba(173, 136, 88, 0.4);
+}
+header .mobile-nav .dropdown-menu:before{
+    content: "";
+    position: absolute;
+    left: 14.5px;
+    top: 25px;
+    width: 1px;
+    background-color: #ededed;
+    height: calc(100% - 45px);
+}
+
+
+header .nav-item:hover>.dropdown-menu{
+    display: block;
+}
+header .mobile-nav .dropdown-menu li {
+    position: relative;
+}
+header .mobile-nav .dropdown-menu .dropdown-submenu {
+display: none;
+position: absolute;
+left: 100%;
+top: -7px;
+}
+header .mobile-nav .dropdown-menu .dropdown-submenu-left {
+right: 100%;
+left: auto;
+}
+header .mobile-nav .dropdown-menu > li:hover > .dropdown-submenu {
+display: block;
+}
+
+/* ===========header Ends============= */
+
+/* ============footer Starts============ */
+
+footer{
+
+}
+
+
+footer .footer-top{
+    background: #0f2244;
+    border-bottom: 1px #152B54 solid;
+}
+
+footer .footer-top .container-size{
+    max-width: 100%;
+    padding:0px 90px;
+    display: flex;
+    justify-content: center;
+    gap:50px;
+}
+
+footer .footer-top .contact-box{
+    display: flex;
+    gap:15px;
+    color: white;
+    border-right: 1px #152B54 solid ;
+    padding-top:60px;
+    padding-right:50px;
+    padding-bottom:60px;
+    width: 343px;
+}
+
+footer .footer-top .contact-box .iconbox{
+    background: #152B54;
+    width: 85px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+footer .footer-top .contact-box .iconbox i{
+    font-size: 25px;
+}
+
+
+footer .footer-top .contact-box .contact-details h2{
+    font-size: 16px;
+}
+
+footer .footer-top .contact-box .contact-details p{
+    color: #8A99B4;
+}
+
+/* --------------------footer-middle------------ */
+
+footer .footermiddle{
+    background: #0f2244;
+    padding-top:50px;
+    padding-bottom:50px;
+    color: white;
+}
+
+
+footer .footermiddle .container-size{
+    max-width: 100%;
+    padding: 0 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:150px;
+    justify-content: center;
+    
+}
+
+
+
+footer .footermiddle .fmleft{
+    display: flex;
+    gap:100px;
+    flex-wrap: wrap;
+}
+
+footer .footermiddle .fmleft .About p{
+    padding-top:15px;
+    color: #8A99B4;
+    font-size: 16px;
+}
+
+footer .footermiddle .fmleft .About .socialicons{
+    padding-top: 15px;
+    display: flex;
+    gap:10px;
+}
+footer .footermiddle .fmleft .socialicons .iconbox{
+    background:#152B54;
+    height:50px;
+    width:50px;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footermiddle .Links{
+    
+}
+
+footer .footermiddle .Links ul{
+    
+    padding-top:5px;
+    padding-left: 0;
+
+}
+
+footer .footermiddle .Links ul li{
+    padding-top:10px;
+    list-style-type: none;
+}
+
+footer .footermiddle .Links ul li a{
+    text-decoration: none;
+    color: #8A99B4;
+    font-size: 16px;
+}
+
+
+footer .footermiddle .fmright{
+    display: flex;
+    gap:100px;
+    flex-wrap: wrap;
+
+}
+
+footer .footermiddle .fmright .Explore{
+
+}
+
+footer .footermiddle .Explore ul{
+    padding-left: 0;
+    padding-top:5px;
+
+}
+
+footer .footermiddle .Explore ul li{
+    padding-top:10px;
+    list-style-type: none;
+}
+
+footer .footermiddle .Explore ul li a{
+    text-decoration: none;
+    color: #8A99B4;
+    font-size: 16px;
+}
+
+/*------------ footer Bootom------------ */
+
+.footer-bottom{
+    background: #152B54;
+    padding-top:12px;
+    padding-bottom:10px;
+    text-align: center;
+}
+.footer-bottom p{
+    color: #8A99B4;
+    padding-top:6px
+    
+}
+
+
+
+
+/* -------------------------==============Media Query============------------------- */
+
+
+
+/* ------macbook Air */
+@media only screen and (max-width: 1280px) {
+    /* -----------main navbar---------- */
+header .main-nav{
+
+}
+
+header .main-nav .container-size{
+    max-width: 100%;
+    padding: 0 100px;
+}
+
+header .main-nav .navigation{
+    display: flex;
+    list-style-type: none;
+    margin-top: 18px;
+    margin-right: 20px;
+}
+
+
+header .main-nav .nav-item{
+    padding-left:22px
+}
+
+/* ----------footer---------- */
+
+/* --------------------footer-middle------------ */
+
+footer .footermiddle .container-size{
+    max-width: 100%;
+    padding: 0 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 58px;
+    justify-content: center;
+    
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+
+/* -----------middle nav------------- */
+header .middlenav{
+background-color: #0074FF;
+}
+    
+header .middlenav .container-size{
+    max-width: 100%;
+    padding: 10px 80px 0 80px;
+}
+
+header .middlenav .contactinfo{
+    display: flex;
+    gap: 10px;
+    padding-top:10px
+}
+   
+    /* -----------main navbar---------- */
+header .main-nav{
+
+}
+
+header .main-nav .container-size{
+    max-width: 100%;
+    padding:0 20px
+}
+
+header .main-nav .navigation{
+    display: flex;
+    list-style-type: none;
+    margin-top: 18px;
+    margin-right: 20px;
+}
+
+
+header .main-nav .nav-item{
+    padding-left:18px
+}
+
+/* ----------footer---------- */
+
+
+/* ----------footertop--------- */
+footer .footer-top .container-size{
+    max-width: 100%;
+    padding:0px 80px;
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    flex-wrap: wrap;
+}
+
+/* --------------------footer-middle------------ */
+
+footer .footermiddle .container-size{
+    max-width: 100%;
+    padding: 0 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+    justify-content: center;
+    
+}
+
+footer .footermiddle .fmleft{
+    display: flex;
+    gap:70px;
+    flex-wrap: wrap;
+}
+
+footer .footermiddle .fmright{
+    display: flex;
+    gap:80px;
+    flex-wrap: wrap;
+
+}
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+
+    /* -----------middle nav------------- */
+header .middlenav{
+background-color: #0074FF;
+}
+    
+header .middlenav .container-size{
+    max-width: 100%;
+    padding: 10px 80px 0 80px;
+}
+
+header .middlenav .contactinfo{
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-evenly;
+
+}
+
+header .middlenav .middlenavright{
+    display: none;
+}
+
+/* ----main -nav--------- */
+
+header .main-nav {
+}
+
+header .main-nav .navbar-brand img{
+    height: 60px;
+}
+
+header .main-nav .container-size{
+    max-width: 100%;
+    padding:0 30px
+}
+
+header .main-nav .navigation{
+    display: flex;
+    list-style-type: none;
+    margin-top: 18px;
+    margin-right: 20px;
+}
+
+
+header .main-nav .nav-item{
+    padding-left:10px
+}
+
+/* ----------footer---------- */
+
+
+/* ----------footertop--------- */
+footer .footer-top .container-size{
+   
+    max-width: 100%;
+    padding: 0 100px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+footer .footer-top .contact-box{
+    border-right: none ;
+}
+
+/* --------------------footer-middle------------ */
+
+footer .footermiddle .container-size{
+    max-width: 100%;
+    padding: 0 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    justify-content: space-evenly;
+    
+}
+
+footer .footermiddle .fmleft{
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+}
+
+footer .footermiddle .fmright{
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+
+}
+
+
+
+}
+
+/* ipad air  */
+@media only screen and (max-device-width: 820px) {
+
+
+    /* -----------middle nav------------- */
+header .middlenav{
+    background-color: #0074FF;
+    }
+        
+    header .middlenav .container-size{
+        max-width: 100%;
+        padding: 10px 40px 0 40px;
+    }
+    
+    header .middlenav .contactinfo{
+        display: flex;
+        padding-top: 10px;
+        justify-content: space-evenly;
+    
+    }
+    
+    header .middlenav .middlenavright{
+        display: none;
+    }
+
+   
+    
+/* ----main -nav--------- */
+
+header .main-nav {
+    display: none;
+}
+
+  /* ---------mobile nav--------- */
+  .mobile-nav{
+    display: block;
+}
+
+.mobile-nav .container-size{
+    max-width: 100%;
+    padding:0 50px
+}
+
+.mobile-nav .offcanvas .offcanvas-header{
+    background-color: rgba(28, 185, 200, 0.1);
+}
+
+
+ /* ----------footer---------- */
+
+
+/* ----------footertop--------- */
+
+footer .footer-top{
+    padding-top:40px
+}
+
+footer .footer-top .contact-box{
+    width: 280px;
+}
+
+footer .footer-top .row{
+    
+}
+
+/* --------------------footer-middle------------ */
+
+footer .footermiddle .container-size{
+    max-width: 100%;
+    padding: 0 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:0px;
+    justify-content: center;
+    
+}
+
+footer .footermiddle .fmleft{
+    display: flex;
+    gap:100px;
+    flex-wrap: wrap;
+}
+
+footer .footermiddle .fmright{
+    display: flex;
+    gap:100px;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+     /* -----------middle nav------------- */
+header .middlenav{
+    background-color: #0074FF;
+    }
+        
+    header .middlenav .container-size{
+        max-width: 100%;
+        padding: 10px 25px 0 25px;
+    }
+    
+    header .middlenav .contactinfo{
+        display: flex;
+        padding-top: 10px;
+        justify-content: space-evenly;
+    
+    }
+    
+    header .middlenav .middlenavright{
+        display: none;
+    }
+
+    
+/* ----main -nav--------- */
+
+header .main-nav {
+    display: none;
+}
+
+  /* ---------mobile nav--------- */
+  .mobile-nav{
+    display: block;
+}
+
+.mobile-nav .container-size{
+    max-width: 100%;
+    padding:0 30px
+}
+.mobile-nav .navbar-brand img{
+    height:70px
+}
+
+.mobile-nav .offcanvas .offcanvas-header{
+    background-color: rgba(28, 185, 200, 0.1);
+}
+
+ /* ----------footer---------- */
+
+
+/* ----------footertop--------- */
+footer .footer-top .container-size{
+   
+    max-width: 100%;
+    padding: 0 70px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+footer .footer-top .contact-info .contact-box{
+   
+}
+
+/* --------------------footer-middle------------ */
+
+footer .footermiddle .container-size{
+    max-width: 100%;
+    padding: 0 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:0px;
+    justify-content: center;
+    
+}
+
+footer .footermiddle .fmleft{
+    display: flex;
+    gap:100px;
+    flex-wrap: wrap;
+    
+}
+
+footer .footermiddle .fmright{
+    display: flex;
+    gap:100px;
+    flex-wrap: wrap;
+    padding-top: 30px;
+
+}
+
+
+
+
+
+    
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    /* -----------middle nav------------- */
+header .middlenav{
+    background-color: #0074FF;
+    }
+        
+    header .middlenav .container-size{
+        max-width: 100%;
+        padding: 10px 0px 0 0px;
+    }
+    
+    header .middlenav .contactinfo{
+        display: flex;
+        padding-top: 10px;
+        justify-content: space-evenly;
+    
+    }
+
+    header .middlenav .middlenavleft .mnav-time{
+        display: none;
+    }
+    
+    header .middlenav .middlenavright{
+        display: none;
+    }
+
+    /* ----------footer---------- */
+
+
+/* ----------footertop--------- */
+footer .footer-top .container-size{
+   
+    max-width: 100%;
+    padding: 0 70px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+footer .footer-top .contact-info .contact-box{
+   
+}
+
+/* --------------------footer-middle------------ */
+
+footer .footermiddle .container-size{
+    max-width: 100%;
+    padding: 0 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:0px;
+    justify-content: center;
+    
+}
+
+footer .footermiddle .fmleft{
+    display: flex;
+    gap:100px;
+    flex-wrap: wrap;
+    
+}
+
+footer .footermiddle .fmright{
+    display: flex;
+    gap:100px;
+    flex-wrap: wrap;
+    padding-top: 30px;
+
+}
+
+
+   
+}
+
+
+
+
+
+
+
+
+
+/* /* ---- iphone 13pro max ---------- */
+@media only screen and (max-device-width: 430px) {
+
+   
+
+/* -----------middle nav------------- */
+header .middlenav{
+    background-color: #0074FF;
+    }
+        
+    header .middlenav .container-size{
+        max-width: 100%;
+        padding: 10px 0px 0 0px;
+    }
+    
+    header .middlenav .contactinfo{
+        display: flex;
+        padding-top: 10px;
+        justify-content: center;
+    
+    }
+    header .middlenav .middlenavleft ul{
+        display: flex;
+        list-style-type: none;
+        gap:15px;
+        justify-content: center;
+    }
+    header .middlenav .middlenavleft ul li{
+        color: white;
+        border-right: 0.1px rgb(163, 160, 160) solid;
+        padding-right: 20px;
+        font-size: 12px;
+    }
+    
+
+    header .middlenav .middlenavleft .mnav-time{
+        display: none;
+    }
+    
+    header .middlenav .middlenavright{
+        display: none;
+    }
+
+     /* ---------mobile nav--------- */
+    .mobile-nav{
+        display: block;
+    }
+
+    .mobile-nav .container-size{
+        max-width: 100%;
+        padding:0 30px
+    }
+    .mobile-nav .navbar-brand img{
+        height:55px
+    }
+
+    .mobile-nav .offcanvas .offcanvas-header{
+        background-color: rgba(28, 185, 200, 0.1);
+    }
+
+}
+
+/* pixel 5  ----------- */
+@media only screen and (max-device-width: 393px) {
+
+    header .topnav{
+        background-color: #262626;
+        display: flex;
+        justify-content: space-between;
+        padding:10px 15px;
+        width:100vw
+        }
+}
+
+/* iPhone 12 pro ----------- */
+@media only screen and (max-device-width: 390px) {
+    .mobile-nav .container-size{
+        max-width: 100%;
+        padding:0 10px
+    }
+}

@@ -1,0 +1,1826 @@
+@font-face {
+  font-family: 'Exo 2', sans-serif;
+  src: url('../fonts/Exo2-Italic-VariableFont_wght.ttf') format("opentype")
+}
+
+@font-face {
+  font-family: 'Exo 2', sans-serif;
+  src: url('../fonts/Exo2-VariableFont_wght.ttf') format("opentype")
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+  transition: 0.5s !important;
+  scroll-behavior: smooth;
+  /* border: 1px solid #000; */
+}
+html{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body{
+  overflow-x: hidden;
+}
+
+
+/* ---------banner section starts ------------*/
+
+#banner{
+
+}
+#banner .carousel{
+
+}
+
+#banner .carousel-inner .carousel-caption{
+  text-align: left;
+  top:32%;
+  left:15%
+}
+
+#banner .carousel-inner .carousel-caption h5{
+  border:2px white solid;
+  padding:5px 0;
+  width:25%;
+  border-radius: 3px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 700;
+  
+}
+#banner .carousel-inner .carousel-caption h1{
+  font-size: 47px;
+  padding-top:16px;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 700;
+  
+}
+
+#banner .carousel-inner .carousel-caption .bannerlinks{
+  display: flex;
+  gap:30px;
+  padding-top:20px
+}
+
+#banner .carousel-caption .bannerlinks .about{
+  background:#0074FF;
+  padding: 16px 33.5px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+#banner .carousel-caption .bannerlinks .about:after{
+  content: "";
+  background: black;
+  position: absolute;
+  z-index: -1;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.5s;
+ }
+ 
+ #banner .carousel-caption .bannerlinks .about:hover:after{
+  transform: skewX(-45deg) scale(1, 1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+ }
+
+#banner .carousel-caption .bannerlinks .about a{
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#banner .carousel-caption .bannerlinks .read{
+  background:white;
+  padding: 16px 33.5px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+#banner .carousel-caption .bannerlinks .read:hover>a{
+  color: white;
+}
+
+#banner .carousel-caption .bannerlinks .read:after{
+  content: "";
+  background: black;
+  position: absolute;
+  z-index: -1;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.5s;
+ }
+ 
+ #banner .carousel-caption .bannerlinks .read:hover:after{
+  transform: skewX(-45deg) scale(1, 1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+ }
+
+#banner .carousel-caption .bannerlinks .read a{
+  text-decoration: none;
+  color:#0074FF;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#banner button i{
+  border:1px white solid;
+  padding:20px;
+  border-radius: 50%;
+  font-size: 30px;
+
+}
+
+/* ---------banner ends------- */
+
+
+/* --------solution Starts-------- */
+
+#solution{
+  background: url(../images/solutionback.jpg);
+  padding-top:100px;
+  padding-bottom:150px;
+  heigth:700px;
+  
+}
+
+#solution .container-size{
+  width: 85%;
+  margin: 0 auto;
+}
+
+#solution .solution-left{
+  
+}
+#solution .solution-left .solimages{
+  position: relative;
+}
+#solution .solution-left .backimg{
+  width:90%;   
+}
+
+#solution .solution-left .backimg img{
+
+}
+
+#solution .solution-left .frontimg{
+  position: absolute;
+  left: 32%;
+  top: 60%;
+  
+}
+#solution .solution-left .frontimg img{
+
+}
+  
+#solution .solution-left .frontimg .iconbox{
+  position: absolute;
+  background: #0074FF;
+  color: white;
+  padding:15px 20px;
+  border-radius: 5px;
+  top: 44%;
+  left: 40%;
+}
+
+#solution .solution-right{
+
+}
+
+#solution .solution-right .content{
+  padding-top: 80px;
+}
+
+#solution .solution-right .solutionrtop{
+  position: relative;
+}
+
+
+#solution .solution-right h4{
+  font-size: 16px;
+  font-weight: 600;
+  color: #0074FF;
+  position: relative;
+  font-family: 'Exo 2', sans-serif;
+  
+}
+
+#solution .solution-right h4 i{
+
+}
+
+#solution .solution-right h4 #leftsquare{
+  position: absolute;
+  top: -3px;
+  left: -7px;
+}
+
+#solution .solution-right h4 #rightsquare{
+  position: relative;
+}
+
+#solution .solution-right h1{
+  font-size: 48px;
+  font-family: 'Exo', sans-serif;
+  font-weight: 600;
+  padding-top:18px;
+}
+
+#solution .solution-right .Solrcontent{
+  color: #55595d;
+  padding-top:20px;
+  font-weight: 400;
+  font-size: 17px;
+  padding-bottom:25px;
+}
+
+#solution .solution-right .callbox{
+  background: #ffffff;
+  height:124px;
+  width:370px;
+  box-shadow: 0px 10px 31px rgba(169, 177, 193, 0.17);
+  display: flex;
+  padding: 15px;
+  gap:10px;
+}
+
+#solution .solution-right .callbox .icon-box{
+  background: #eff1f5;
+  width: 85px;
+  height: 85px;
+  line-height: 95px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0px 7px 37px rgba(96, 125, 185, 0.11);
+ 
+}
+#solution .solution-right .callbox .icon-box i{
+  font-size: 40px;
+  color: #0074FF;
+}
+
+#solution .solution-right .callbox .callcontent{
+  
+}
+
+#solution .solution-right .callbox .callcontent p{
+  color: #55595d;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  padding-top:25px
+}
+
+#solution .solution-right .callbox .callcontent h4{
+  font-weight: 700;
+  line-height: 1;
+  color: black;
+}
+
+#solution .solution-right .link{
+  padding-top: 50px;
+}
+
+#solution .solution-right .about{
+  background:#0074FF;
+  padding: 16px 33.5px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  width: 200px;
+}
+
+#solution .solution-right .about a{
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#solution .solution-right .about:after{
+  content: "";
+  background: black;
+  position: absolute;
+  z-index: -1;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.5s;
+ }
+ 
+ #solution .solution-right .about:hover:after{
+  transform: skewX(-45deg) scale(1, 1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+ }
+
+ /* ----------solution ends-------- */
+
+ /* ===========services starts================= */
+
+ #services{
+  background: url(../images/services-back.png);
+  padding-top:80px;
+  padding-bottom:90px
+ }
+
+ #services .services-head{
+  text-align: center;
+ }
+
+ #services .services-head h4{
+  font-size: 16px;
+  font-weight: 600;
+  color: #0074FF;
+  position: relative;
+  font-family: 'Exo 2', sans-serif;
+ }
+
+ #services .services-head h1{
+  font-size: 48px;
+  font-family: 'Exo', sans-serif;
+  font-weight: 600;
+  padding-top:18px;
+ }
+
+ #services .container-size{
+  max-width: 90%;
+  margin:0 auto
+ } 
+
+ #services .service-row{
+      justify-content: center;
+      gap: 20px;
+      padding-top:40px
+ }
+ #services .service-row .servicebox{
+  background-color: #ffffff;
+  height:350px;
+  width:350px;
+  box-shadow: 0px 16px 47px rgba(78, 111, 178, 0.07);
+  border-radius: 5px;
+  position: relative;
+  transition: all ease 0.4s;
+  overflow: hidden;
+  padding: 30px;
+  
+ }
+
+ #services .service-row .servicebox .innerbox{
+  background-image: url(../images/service-container-back.png);
+  height: 333px;
+  width: 321px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: none;
+  z-index: 1;
+  position: absolute;
+  
+  
+ }
+
+ #services .service-row .servicebox:hover{
+  background-color: #0074FF;
+ }
+
+ #services .service-row .servicebox:hover>.innerbox{
+ display: block;
+ 
+ }  
+
+ #services .service-row .servicebox .iconbox{
+  background-color: #eff1f5;
+  width: 80px;
+  height: 80px;
+  line-height: 70px;
+  text-align: center;
+  border-radius: 50%;
+  z-index: 9999;
+ }
+
+ #services .service-row .servicebox:hover>.iconbox{
+  background-color: white;
+ }
+
+ #services .service-row .servicebox .iconbox img{
+  height: 70%;
+ }
+
+ #services .service-row .servicebox .content{
+  padding-top:25px;
+  
+ }
+
+ #services .service-row .servicebox .content h4{
+  font-weight: 700;
+ }
+ #services .service-row .servicebox:hover>.content h4{
+  color: white;
+ }
+ #services .service-row .servicebox:hover>.content p{
+  color: white;
+ }
+
+
+ #services .service-row .servicebox .read{
+  background-color: #eff1f5;
+  padding: 12px 26.5px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  width: 160px;
+  
+  }
+
+  #services .service-row .servicebox .read:hover>a{
+      color: white;
+  }
+
+  #services .service-row .servicebox .read a{
+      text-decoration: none;
+      color:#0074FF;
+      font-size: 15px;
+      font-weight: 700;
+      text-transform: uppercase;
+  }
+
+  #services .service-row .servicebox .read:after{
+      content: "";
+      background: black;
+      position: absolute;
+      z-index: -1;
+      left: -20%;
+      right: -20%;
+      top: 0;
+      bottom: 0;
+      transform: skewX(-45deg) scale(0, 1);
+      transition: all 0.5s;
+     }
+     
+     #services .service-row .servicebox .read:hover:after{
+      transform: skewX(-45deg) scale(1, 1);
+      -webkit-transition: all 0.5s;
+      transition: all 0.5s;
+     }
+
+     /* ------------services ends--------------  */
+
+     /* =============Counter================ */
+
+     #Counter{
+      background: url(../images/counter-bg.jpg);
+      padding-top:80px;
+      padding-bottom:80px;
+      background-repeat: no-repeat;
+      background-size: cover;
+     }
+     #Counter .container-size{
+      max-width: 80%;
+      margin: 0 auto;
+
+     }
+
+     #Counter .container-size .row{
+      justify-content: center;
+      
+     }
+
+
+     #Counter .countercol{
+      display: flex;
+      gap:15px
+     }
+
+     #Counter .countercol .iconbox{
+      background: #0074FF;
+      width: 90px;
+      height: 90px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+
+     #Counter .countercol .content h1{
+      color: #ffffff;
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 900;
+      font-size: 48px;
+     }
+     
+     #Counter .countercol .content h4{
+      color: #ffffff;
+      font-size: 16px;
+     }
+
+     /* ==========counter Ends========== */
+
+     /* ------------Team Starts------------ */
+
+     #Team{
+      padding-top:100px;
+      padding-bottom: 130px;
+     }
+
+     #Team .team-head{
+      text-align: center;
+     }
+  
+     #Team .team-head h4{
+      font-size: 16px;
+      font-weight: 600;
+      color: #0074FF;
+      position: relative;
+      font-family: 'Exo 2', sans-serif;
+     }
+  
+     #Team .team-head h1{
+      font-size: 48px;
+      font-family: 'Exo', sans-serif;
+      font-weight: 600;
+      padding-top:18px;
+     }
+
+     #Team .container-size{
+      max-width: 85%;
+      margin: 0 auto;
+     }
+
+     #Team .team-owl{
+      padding-top: 80px;
+     }
+
+     #Team .team-owl .teamowl-item:hover>.teamimg img{
+      transform: scale(1.1);
+     }
+
+     #Team .team-owl .teamimg{
+      height:300px;
+      position: relative;
+      overflow: hidden;
+     }
+
+     #Team .team-owl .teamimg img{
+      border-radius: 5px;
+     }
+
+     #Team .team-owl .teamimg .socialicons{
+      background: #0074FF;
+      position: absolute;
+      top: 86%;
+      left: 18%;
+      padding: 10px;
+      width: 66%;
+      text-align: center;
+      display: none;
+     }
+
+     #Team .team-owl .teamowl-item:hover>.teamimg .socialicons{
+      display: block;
+     }
+     #Team .team-owl .teamimg .socialicons a{
+      text-decoration: none;
+     }
+
+     #Team .team-owl .teamimg .socialicons a i{
+      color: #ffffff;
+      padding-left:15px;
+      font-size: 20px;
+     }
+
+     #Team .team-owl .team-content{
+      padding-top:30px;
+      text-align: center;
+     }
+
+     #Team .team-owl .team-content h4{
+      color: #0074FF;
+      font-size: 18px;
+     }
+
+     #Team .team-owl .team-content h3{
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 700;
+     }
+
+     /*  ================= Team Ends=================*/
+
+     /* ----------FaQ starts------------------ */
+
+    #Faq{
+      padding-top:100px;
+      padding-bottom:100px;    
+      position: relative; 
+      height:860px
+    } 
+
+    #Faq .faqbackground1{
+      background-image:url(../images/faq-bg-1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      position: absolute;
+      right: 0;
+      top: 120px;
+      bottom: 0;
+      width: 100%;
+      max-width: 1120px;
+      border-radius: 5px 0 0 5px;
+      z-index: -1;
+      height: 100vh;
+      
+    }
+
+    #Faq .faqbackground2{
+      background-image: url(../images/faq-bg-2.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      max-width: 945px;
+      max-height: 570px;
+      z-index: -2;
+      border-radius: 0 5px 5px 0;
+    }
+
+    #Faq .faq-content{
+      position: absolute;
+      top:22%
+    }
+
+    #Faq .faq-content .row{
+
+    }
+
+    #Faq .faq-content .faq-left{
+          position: relative;
+    }
+
+    #Faq .faq-content .faq-left .img1{
+      
+    }
+    #Faq .faq-content .faq-left .img1 img{
+      width: 100%;
+      
+    }
+
+    #Faq .faq-content .faq-left .img2{
+      position: absolute;
+      bottom: 0;
+      right: 12px;
+      background-color: white;
+    }
+    #Faq .faq-content .faq-left .img2 img{
+      padding-left: 10px;
+      padding-top: 10px;
+    }
+
+    #Faq .faq-content .faq-left .img2 .icon-box{
+      background-color: #0074FF;
+      width: 55px;
+      height: 55px;
+      line-height: 95px;
+      border-radius: 5px;
+      text-align: center;
+      box-shadow: 0px 7px 37px rgba(96, 125, 185, 0.11);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 40%;
+      right: 41%;
+     
+      }
+      #Faq .faq-content .faq-left .img2 .icon-box i{
+          font-size: 20px;
+          color: white;
+      }
+
+      #Faq .faq-content .faq-right{
+          width: 48.666667%;
+      }
+
+      #Faq .faq-content .faq-right .content{
+          padding-left: 38px;
+          padding-top: 30px;
+      }
+
+      #Faq .faq-content .faq-right .solutionrtop{
+          
+      }
+
+      #Faq .faq-content .faq-right .solutionrtop h4{
+          color: white;
+          position: relative;
+          font-size: 16px;
+      }
+
+      #Faq .faq-content .faq-right .solutionrtop h4 #leftsquare{
+          position: absolute;
+          top: -3px;
+          left: -7px;
+      }
+      
+      #Faq .faq-content .faq-right .solutionrtop h4 #rightsquare{
+          position: relative;
+      }
+
+      #Faq .faq-content .faq-right h1{
+          color: #ffffff;
+          font-family: 'Exo 2', sans-serif;
+          font-size: 48px;
+          font-weight: 800;
+
+      }
+
+      #Faq .faq-content .faq-right .accordion{
+          padding-top: 20px;
+          position: absolute;
+      }
+
+      #Faq .faq-content .faq-right .accordion .accordion-item{
+          border: none;
+          margin-top: 15px;
+      }
+
+      #Faq .faq-content .faq-right .accordion h2{
+
+      }
+
+      #Faq .faq-content .faq-right .accordion h2 button{
+          font-size: 18px;
+          font-weight: 700;
+          width: 600px;
+      
+      }
+
+      #Faq .faq-content .faq-right .accordion .accordion-body{
+          font-size: 17px;
+          font-weight: 600;
+          color: #55595d;
+          width:600px
+      }
+
+      /* ================FAQ Ends============ */
+
+      /* ---------skills starts---------------- */
+
+      #skills{
+          padding-top:80px;
+          padding-bottom:100px;
+      }
+
+      #skills .container-size{
+          max-width: 80%;
+          margin:0 auto;
+      }
+
+      #skills .skill-row{
+          
+      }
+
+      #skills .skill-left .skilltop{
+
+      }
+
+      #skills .skill-left .skilltop h4{
+          font-size: 16px;
+          font-weight: 600;
+          color: #0074FF;
+          position: relative;
+          font-family: 'Exo 2', sans-serif;
+          
+      }
+
+      #skills .skill-left .skilltop h4 #leftsquare{
+          position: absolute;
+          top: -3px;
+          left: -7px;
+      }
+      
+      #skills .skill-left .skilltop h4 #rightsquare{
+          position: relative;
+      }
+
+      #skills .skill-left h1{
+          font-family: 'Exo 2', sans-serif;
+          font-weight: 700;
+          padding-top:20px
+      }
+
+      #skills .skill-left p{
+          color: #55595d;
+          font-size: 16px;
+          font-weight: 600;
+          padding-top:10px
+      }
+
+      #skills .skill-left .progresssss{
+          padding-top:33px
+      }
+
+      #skills .skill-left .progress-box .prog-head{
+          display: flex;
+          justify-content: space-between;
+      }
+
+      #skills .skill-left .progress-box .prog-head h3{
+          font-family: 'Exo 2', sans-serif;
+          font-size: 18px;
+          font-weight: 600;
+      }
+
+
+      #skills .skill-left .progress-box .progress-bar{
+          box-shadow: 0px 10px 31px rgba(169, 177, 193, 0.17);
+          border: 1px solid #D5E0F5;
+          height: 16px;
+          padding: 4px;
+          border-radius: 5px;
+      }
+
+      #skills .skill-left .progress-bar .progress-value{
+          height: 100%;
+          background-color: #0074FF;
+          border-radius: inherit;
+          box-shadow: 0px 10px 31px rgba(169, 177, 193, 0.17);
+          border-radius: 5px;
+      }
+
+      /* ===========skill ends========== */
+
+      /* --------------consultaiotn starts----------- */
+
+      #consultation{
+          background-image: url(../images/cta-bg-1.jpg);
+          background-repeat: no-repeat;
+          background-position: center center;
+          padding-top:120px;
+          padding-bottom: 120px;
+      }
+
+      #consultation .container-size{
+          max-width: 80%;
+          margin: 0 auto;
+      }
+
+      #consultation .constcontent{
+          display: flex;
+          justify-content: space-between;
+      }
+
+      #consultation .constcontent .consultleft h4{
+          font-size: 16px;
+          font-weight: 600;
+          color: #ffffff;
+          position: relative;
+          font-family: 'Exo 2', sans-serif;
+         }
+      
+      #consultation .constcontent .consultleft h1{
+          font-size: 48px;
+          font-family: 'Exo', sans-serif;
+          font-weight: 600;
+          padding-top:18px;
+          color: #ffffff;
+         }
+
+
+
+      #consultation .constcontent .consultright .quote{
+          background:#0074FF;
+          padding: 16px 33.5px;
+          border-radius: 5px;
+          position: relative;
+          z-index: 1;
+          overflow: hidden;
+          width: 200px;
+      }
+      
+      #consultation .constcontent .consultright .quote a{
+          text-decoration: none;
+          color: white;
+          font-size: 17px;
+          font-weight: 500;
+          text-transform: uppercase;
+      }
+      
+      #consultation .constcontent .consultright .quote:after{
+       content: "";
+       background: black;
+       position: absolute;
+       z-index: -1;
+       left: -20%;
+       right: -20%;
+       top: 0;
+       bottom: 0;
+       transform: skewX(-45deg) scale(0, 1);
+       transition: all 0.5s;
+      }
+      
+      #consultation .constcontent .consultright .quote:hover:after{
+       transform: skewX(-45deg) scale(1, 1);
+       -webkit-transition: all 0.5s;
+       transition: all 0.5s;
+      } 
+      /* =============consultation Ends===========*/
+
+      /* -------------Process starts----------- */
+
+      #Process{
+          padding-top:100px;
+          padding-bottom:100px;
+          background:#eff1f5;
+      }
+
+      #Process .process-head{
+       text-align: center;
+      }
+  
+      #Process .process-head h4{
+       font-size: 16px;
+       font-weight: 600;
+       color: #0074FF;
+       position: relative;
+       font-family: 'Exo 2', sans-serif;
+      }
+  
+      #Process .process-head h1{
+       font-size: 48px;
+       font-family: 'Exo', sans-serif;
+       font-weight: 600;
+       padding-top:18px;
+      }
+
+      #Process .container-size{
+          max-width: 80%;
+          margin:0 auto;
+      }
+
+      #Process .processrow{
+          padding-top:100px
+      }
+
+      #Process .processcol{
+          position: relative;
+      }
+
+      #Process .processcol .box{
+          text-align: center;
+      }
+
+      #Process .processcol .box-even{
+          padding-top:60px
+      }
+
+      #Process .processcol .box .icon-box{
+          height:130px;
+          width:130px;
+          background: #ffffff;
+          border-radius: 50%;
+          margin: auto;
+          position: relative;
+      }
+      #Process .processcol .box .icon-box img{
+          margin: 42px;
+          height: 45px;
+      }
+      #Process .processcol .box .icon-box span{
+          background: #0074FF;
+          text-align: center;
+          display: inline-block;
+          width: 35px;
+          height: 35px;
+          line-height: 31px;
+          border-radius: 50%;
+          font-size: 12px;
+          color: white;
+          font-weight: 700;
+          position: absolute;
+          right: 0;
+          top: 0;
+      }
+
+      #Process .processcol .box .content h2{
+          font-family: 'Exo 2', sans-serif;
+          padding-top:10px;
+          font-size: 22px;
+          font-weight: 700;
+      }
+
+      #Process .processcol .box .content p{
+          color: #55595d;
+          font-size: 16px;
+          font-weight: 400;
+          padding-top:10px
+      }
+
+      #Process .processcol .processarrow{
+          position: absolute;
+          top: 6%;
+          right: -73px;
+      }
+
+      #Process .processcol .arrowinvert{
+          transform: rotateX(190deg);
+          top: 16%;
+          right: -53px;
+      }
+
+      /* =============process ends=========== */
+
+      /* =======clients========== */
+
+      #Clients{
+          padding-top:80px;
+          padding-bottom:80px
+      }
+
+      #Clients .container-size{
+          max-width: 80%;
+          margin: 0 auto;
+      }
+
+      #Clients .clienthead{
+          text-align: center;
+      }
+
+      #Clients .clienthead h4{
+          font-size: 20px;
+          
+          
+      }
+
+      #Clients .clienthead h4::before{
+          content: "";
+          display: inline-block;
+          background: #0074FF;
+          height:2px;
+          width: 40%;
+          margin-right:10px;
+          margin-bottom:4px
+      }
+
+      #Clients .clienthead h4::after{
+          content: "";
+          display: inline-block;
+          background: #0074FF;
+          height:2px;
+          width: 40%;
+          margin-left:10px;
+          margin-bottom:4px;
+      }
+
+      #Clients .clientowl{
+          padding-top:5 0px
+      }
+
+      #Clients .clientowl .item .clientimg{
+          height: 170px;
+          width: 177px;
+      }
+
+      #Clients .clientowl .item .clientimg img{
+          height:100%;
+          width:100%
+          
+
+      }
+
+/* ---------- STARTING OF PRICING PLAN CSS ------------ */
+
+.pricing-plan {
+  background-image: url("../images/Pricing-plan-img1.jpg");
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.pricing-plan .ppdiv {
+  padding: 144px 0px;
+}
+
+.pricing-plan .ppdiv h1 {
+  color: white;
+}
+
+.pricing-plan .ppdiv .ppul {
+  padding-left: 0px;
+}
+
+.pricing-plan .ppdiv .ppul li {
+  list-style: none;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+
+.pricing-plan .ppdiv .ppul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.subscription {
+  margin: 100px 0px;
+}
+
+.subscription .subgrid .amount h5 {
+  font-weight: 700;
+}
+
+.subscription .subgrid:hover .amount h5 {
+  color: white;
+}
+
+.subscription .subgrid .amount h1 {
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0 0 15px 0;
+  display: inline-block;
+  color: #0e5af2;
+}
+
+.subscription .subgrid .amount h1 i {
+  margin-right: 5px;
+}
+
+.subscription .subgrid:hover .amount h1 {
+  color: white;
+}
+
+.subscription .subgrid .amount sub {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.subscription .subgrid:hover .amount sub {
+  color: white;
+}
+
+.subscription .subgrid {
+  background-color: #f4f6f6;
+  padding: 50px 80px;
+  border-radius: 5px;
+}
+
+.subscription .subgrid:hover {
+  background: #0e5af2;
+  background-image: url("../images/price-bg-shape-1-1.png");
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.subscription .subgrid .subscriptionaccess {
+  background-color: white;
+}
+
+.subscription .subgrid .subscriptionaccess ul {
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.subscription .subgrid .subscriptionaccess ul li {
+  line-height: 2;
+}
+
+.subscription .subgrid .subscriptionaccess ul li i {
+  margin-right: 5px;
+  color: #0e5af2;
+}
+
+.subscription .subgrid .subcriptionbtn {
+  margin-top: 15px;
+}
+
+.subscription .subgrid .subcriptionbtn div {
+  color: white;
+  background-color: #0e5af2;
+  padding: 10px 60px;
+  border-radius: 5px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.subscription .subgrid:hover .subcriptionbtn div {
+  background: white;
+}
+
+.subscription .subgrid:hover .subcriptionbtn div span {
+  color: #0e5af2;
+}
+
+.consultation {
+  background-image: url("../images/cta-bg-1-1.jpg");
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0px;
+}
+
+.consultation h6 {
+  color: white;
+}
+
+.consultation h1 {
+  display: inline-block;
+  color: white;
+  margin-top: 20px;
+}
+
+.consultation span {
+  float: right;
+  display: inline-block;
+  background: #0e5af2;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.consultation span:hover {
+  background-color: black;
+}
+
+.consultation span a {
+  color: white;
+  text-decoration: none;
+}
+
+.consultation span a i {
+  color: white;
+  margin-left: 5px;
+}
+.planupdates {
+  margin-top: 80px;
+}
+
+.planupdates .common {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.planupdates .common p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0e5af2;
+}
+
+.planupdates .subscriptionowlcarousal .item .itemcontent .itemdetail {
+  text-decoration: none;
+  color: #55585f;
+  margin-right: 30px;
+}
+
+.planupdates .subscriptionowlcarousal .item .itemcontent {
+  padding: 20px;
+  box-shadow: 1px 1px 5px gray;
+}
+
+.planupdates .subscriptionowlcarousal .item .itemcontent .itemdetail:hover {
+  color: #0e5af2;
+}
+
+.planupdates .subscriptionowlcarousal .item .itemcontent .itemdetail i {
+  margin-right: 10px;
+  color: #0e5af2;
+}
+
+.planupdates .subscriptionowlcarousal .item .itemcontent h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.planupdates .subscriptionowlcarousal .item .itemcontent h4 a {
+  text-decoration: none;
+  color: black;
+}
+
+.planupdates .subscriptionowlcarousal .item {
+  padding: 20px;
+}
+
+.planupdates .subscriptionowlcarousal .item .itemcontent h4 a:hover {
+  color: #0e5af2;
+}
+
+.planupdates .subscriptionowlcarousal .item .itemcontent .readdet {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.planupdates .subscriptionowlcarousal .item .itemcontent .readdet i {
+  margin-left: 5px;
+}
+
+/* ---------- ENDING OF PRICING PLAN CSS ---------- */
+
+/* ---------- STARTING OF 404 PAGE CSS ------------ */
+
+.errorheader {
+  background-image: url("../images/Pricing-plan-img1.jpg");
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.errorheader .errordiv {
+  padding: 144px 0px;
+}
+
+.errorheader .errordiv h1 {
+  color: white;
+}
+
+.errorheader .errordiv .errorul {
+  padding-left: 0px;
+}
+
+.errorheader .errordiv .errorul li {
+  list-style: none;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+
+.errorheader .errordiv .errorul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.errorcontent {
+  text-align: center;
+  padding: 80px 0px;
+}
+
+.errorcontent h1 {
+  font-size: 274px;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 3px;
+  margin-top: -0.1em;
+  font-family: "Exo", sans-serif;
+}
+
+.errorcontent h1 span {
+  color: #0e5af2;
+}
+
+.errorcontent h3 {
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+.errorcontent p {
+  max-width: 600px;
+  margin: 0 auto 32px auto;
+  color: #55595d;
+}
+
+.errorcontent a {
+  text-decoration: none;
+  color: white;
+  background: #0e5af2;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 19px 30.5px;
+  border-radius: 5px;
+}
+
+.errorcontent a:hover {
+  background: black;
+}
+
+.errorcontent a i {
+  margin-right: 8px;
+}
+
+/* ---------- ENDING OF 404 PAGE CSS ---------- */
+
+/* ---------- STARTING OF CART PAGE CSS ------------ */
+
+.cartcontent {
+  text-align: center;
+  padding: 100px 0px;
+}
+
+.cartcontent .cartimg {
+  text-align: center;
+}
+
+.cartcontent a {
+  position: relative;
+  display: inline-block;
+  border: none;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #0e5af2;
+  color: white;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1;
+  padding: 19px 30.5px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.cartcontent a:hover {
+  background: black;
+}
+
+/* ---------- ENDING OF CART PAGE CSS ---------- */
+
+/* ---------- STARTING OF MY ACCOUNT CSS ------------ */
+
+.logincontent {
+  padding: 100px 0px;
+}
+
+.logincontent .logintitle {
+  text-align: center;
+}
+
+.logincontent .logintitle span {
+  color: white;
+  background: #0e5af2;
+  padding: 8px 16px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.logincontent .logintitle hr {
+  margin: 6px 0px 0px;
+}
+
+.logincontent .logincontents {
+  background: #f4f6f6;
+  padding: 50px 50px 50px;
+  margin-top: 50px;
+}
+
+.logincontent .logincontents button:hover {
+  background: black;
+}
+
+.logincontent .logincontents a {
+  display: block;
+  text-decoration: none;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.logincontent .logincontents a:hover {
+  color: black;
+}
+
+/* ---------- ENDING OF MY ACCOUNT CSS ---------- */
+
+/* ---------- STARTING OF WISHLIST CSS ---------- */
+
+.wishlistcontent {
+  padding: 100px 0px;
+}
+
+.wishlistcontent h2 {
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+.wishlistcontent p {
+  background: #f4f6f6;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.wishlistcontent p i {
+  margin-right: 5px;
+}
+
+.wishlistcontent button {
+  background: #0e5af2;
+  border: none;
+  margin-top: 35px;
+  padding: 10px;
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+/* ---------- ENDING OF WISHLIST CSS ---------- */
+
+/* ---------- STARTING OF CONTACT US CSS ---------- */
+
+.contactus {
+  padding: 100px 0px;
+}
+
+.contactus .contactgrid {
+  background:#f4f6f6;
+  padding: 50px 75px;
+}
+
+.contactus .contactgrid hr {
+  margin: 25px 0px;
+}
+
+.contactus .contactgrid .contacthead {
+  margin-bottom: 40px;
+}
+
+.contactus .contactgrid .contacthead p {
+  color: gray;
+}
+
+.contactus .contactgrid .contactdetail i {
+  margin-top: 5px;
+  color: #0e5af2;
+  font-size: 30px;
+}
+
+.contactus .contactgrid .contactdetail h5 {
+  font-size: 18px;
+  margin: -0.3em 0 8px 0;
+}
+
+.contactus .contactgrid .contactdetail p {
+  color: gray;
+  margin-bottom: 3px;
+}
+
+.contactus .contactgrid .contactdetail a {
+  text-decoration: none;
+  display: block;
+  color: gray;
+}
+
+.contactus .contactgrid .contactform .inputdiv {
+  background: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.contactus .contactgrid .contactform button:hover {
+  background-color: black;
+}
+
+.contactus .contactgrid .contactform .inputdiv .form-control {
+  display: inline-block;
+  border: none;
+  width: 86%;
+  color: gray;
+}
+
+.contactus .contactgrid .contactform .inputdiv i {
+  color: gray;
+}
+
+.contactus .contactgrid .contactform .inputdiv1 {
+  background: white;
+  border-radius: 5px;
+  padding: 11px;
+}
+
+.contactus .contactgrid .contactform .inputdiv1 select {
+  border: none;
+  color: gray;
+  width: 100%;
+}
+
+.contactus .contactgrid .contactform .inputdiv1 select:focus {
+  border: 0px;
+  outline: 0px;
+}
+
+.contactus .contactgrid .contactform .inputdiv1 select option {
+  color: gray;
+  overflow: auto;
+}
+
+.contactus .contactgrid .contactform .inputdiv1 .form-control {
+  border: none;
+  color: gray;
+}
+
+/* ---------- ENDING OF CONTACT US CSS ---------- */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* ---------- MEDIA QUERY START FOR PRICING PLAN CSS ---------- */
+
+  .subscription .subgrid {
+    padding: 25px 30px;
+  }
+
+  .contactus .maincontactgrid  {
+    width: 50% !important;
+   }
+ 
+
+  /* ---------- MEDIA QUERY END FOR PRICING PLAN CSS ---------- */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* ---------- MEDIA QUERY START FOR PRICING PLAN CSS ---------- */
+
+  .subscription .subgrid {
+    padding: 25px 29px;
+  }
+
+  .contactus {
+    padding: 70px 0px 100px;
+  }
+
+  .contactus .maincontactgrid  {
+   width: 100%;
+   margin-top: 30px;
+  }
+
+  /* ---------- MEDIA QUERY END FOR PRICING PLAN CSS ---------- */
+
+
+}
+
+/* ipad air  */
+@media only screen and (max-device-width: 820px) {
+  /* ---------- MEDIA QUERY START FOR PRICING PLAN CSS ---------- */
+
+  .pricing-plan .ppdiv {
+    padding: 144px 20px;
+  }
+  .subscription .subgrid {
+    padding: 25px 29px;
+  }
+  .subscription .gold-plan {
+    display: none;
+  }
+
+  .errorcontent h1 {
+    font-size: 200px;
+  }
+
+  .errorcontent h3 {
+    font-size: 20px;
+  }
+
+  .errorcontent a {
+    font-size: 14px;
+  }
+
+  .contactus .maincontactgrid  {
+    width: 100%;
+    margin-top: 30px;
+   }
+
+  /* ---------- MEDIA QUERY END FOR PRICING PLAN CSS ---------- */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  /* ---------- MEDIA QUERY START FOR PRICING PLAN CSS ---------- */
+
+  .subscription .silver-plan {
+    display: none;
+  }
+  .consultation {
+    text-align: center;
+  }
+  .consultation span {
+    float: none;
+    margin-top: 20px;
+  }
+  .consultation h1 {
+    display: block;
+  }
+  .subscription .subgrid {
+    padding: 30px 30px;
+  }
+
+  .errorcontent h1 {
+    font-size: 110px;
+  }
+
+  .errorcontent h3 {
+    font-size: 18px;
+  }
+
+  .errorcontent p {
+    font-size: 15px;
+  }
+
+  .errorheader .errordiv {
+    padding: 144px 20px;
+  }
+
+  .contactus {
+    padding: 50px 0px;
+  }
+
+  /* ---------- MEDIA QUERY END FOR PRICING PLAN CSS ---------- */
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  .contactus .contactgrid {
+    padding: 20px 20px;
+  }
+
+  .contactus {
+   padding:  10px 0px 30px;
+  }
+
+}
+
+/* /* ---- iphone 13pro max ---------- */
+@media only screen and (max-device-width: 430px) {
+  .errorcontent p {
+    padding: 0px 10px;
+  }
+
+  .contactus .contactgrid .contactform .forres {
+    width: 100%;
+  }
+
+  .contactus .contactgrid .contactdetail .contacticon {
+    width: 100%;
+    margin-bottom: 7px;
+  }
+}
+
+/* /* ---- iphone XR max ---------- */
+@media only screen and (max-device-width: 414px) {
+}
+
+/* pixel 5  ----------- */
+@media only screen and (max-device-width: 393px) {
+}
+
+/* iPhone 12 pro ----------- */
+@media only screen and (max-device-width: 390px) {
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (max-device-width: 375px) {
+}
+
+/* samsung galaxy  */
+@media only screen and (max-device-width: 360px) {
+}
+
+
+
+        
+
+            
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
